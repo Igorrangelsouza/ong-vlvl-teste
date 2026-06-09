@@ -124,7 +124,8 @@ CORS_ALLOWED_ORIGINS = env.list(
     default=[
         'http://localhost:3000',
         'http://127.0.0.1:3000',
-        'ong-vlvl-teste-production.up.railway.app',
+        'https://ong-vlvl-teste-production.up.railway.app',
+        'https://ong-vlvl-teste.vercel.app',
     ],
 )
 CORS_ALLOW_CREDENTIALS = True
@@ -135,6 +136,7 @@ CSRF_TRUSTED_ORIGINS = env.list(
         'http://localhost:3000',
         'http://127.0.0.1:3000',
         'https://ong-vlvl-teste-production.up.railway.app',
+        'https://ong-vlvl-teste.vercel.app',
     ],
 )
 
